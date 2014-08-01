@@ -16,7 +16,7 @@ requires = [
     ]
 
 setup(name='box',
-      version='0.0',
+      version='0.1',
       description='box',
       long_description=README + '\n\n' + CHANGES,
       classifiers=[
@@ -35,7 +35,7 @@ setup(name='box',
       install_requires=requires,
       tests_require=requires,
       test_suite="box",
-      entry_points="""\
+      entry_points="""
       [paste.app_factory]
       main = box:main
       """,
